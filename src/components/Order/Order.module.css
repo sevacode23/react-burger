@@ -1,0 +1,44 @@
+.Order {
+    width: 60%;
+    padding: 20px;
+    box-shadow: 0 0 10px #ccc;
+    margin: 30px auto;
+    box-sizing: border-box;
+    cursor: pointer;
+    transition: box-shadow 0.2s;
+}
+
+.IngredientsP {
+    display: inline-block;
+}
+
+.Order ul {
+    display: inline;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.Order li {
+    display: inline-block;
+    width: 110px;
+    padding: 5px;
+    box-sizing: border-box;
+    text-align: center;
+    margin: 5px 5px;
+    box-shadow: 0 0 4px #ccc;
+}
+
+.Order:hover {
+    box-shadow: 0 0 20px #ccc;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+@media (max-width: 599px) {
+    .DesktopOnly {
+        display: none;
+    }
+}

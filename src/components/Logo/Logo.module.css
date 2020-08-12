@@ -1,0 +1,7 @@
+.Logo {
+    display: block;
+    background-color: white;
+    padding: 3px;
+    border-radius: 5px;
+    box-sizing: border-box;
+}

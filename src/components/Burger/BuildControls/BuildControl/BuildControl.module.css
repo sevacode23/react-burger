@@ -1,0 +1,35 @@
+.BuildControl {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px 0;
+}
+
+.BuildControl button {
+    display: block;
+    font: inherit;
+    width: 80px;
+    margin: 0 5px;
+    padding: 5px;
+    background-color: #D39952;
+    color: white;
+    outline: none;
+    border: 1px solid #AA6817;
+    border-radius: 7px;
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+
+.Label {
+    padding: 10px;
+    width: 80px;
+    font-weight: bold;
+}
+
+.BuildControl button:hover, .BuildControl button:active {
+    transform: scale(1.1);
+}
+
+.BuildControl button:active {
+    background-color: #DAA972;
+}
